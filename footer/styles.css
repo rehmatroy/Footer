@@ -1,0 +1,142 @@
+/*style of footer is here*/
+#footer-top{
+	background: url(//www.cloudways.com/wp-content/themes/cw_multilingual/template/assets/css/widget/../../img/home/bottom-cta-right.png) no-repeat top right,
+	url(//www.cloudways.com/wp-content/themes/cw_multilingual/template/assets/css/widget/../../img/home/bottom-cta-left.png) no-repeat top left #0a0d35;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+}
+
+#footer-top .footer-top-head{
+	padding: 60px 0;
+}
+#footer-top .footer-top-head h1{
+	font-size: 56px;
+    font-weight: 700;
+    margin: 0 0 10px;
+}
+#footer-top .footer-top-head p{
+	font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+/*styles of button*/
+
+#footer-top .footer-top-head .footer-top-btn-1st{
+	color: #192072 !important;
+    font-size: 15px;
+    display: inline-block;
+    font-weight: 700;
+    background-color: #09ebaf;
+    border-radius: 6px !important;
+    padding: 10px 25px;
+    border: 2px solid #09ebaf;
+    text-transform: uppercase;
+}
+#footer-top .footer-top-head .footer-top-btn-2nd{
+	color: #fff;
+    font-size: 15px;
+    display: inline-block;
+    font-weight: 700;
+    background-color: transparent;
+    border-radius: 6px !important;
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+}
+
+/*buttons on hover effect*/
+
+#footer-top .footer-top-head .footer-top-btn-1st:hover{
+	background-color: #6bffd8;
+	color: #000;
+}
+#footer-top .footer-top-head .footer-top-btn-2nd:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+/*buttons on focus effect*/
+
+#footer-top .footer-top-head .footer-top-btn-1st:focus{
+	box-shadow: none;
+}
+#footer-top .footer-top-head .footer-top-btn-2nd:focus{
+	box-shadow: none;
+}
+
+#Footer{
+background: url(//www.cloudways.com/wp-content/themes/cw_multilingual/template/assets/css/widget/../../img/home/bottom-cta-right.png) no-repeat top right,
+	url(//www.cloudways.com/wp-content/themes/cw_multilingual/template/assets/css/widget/../../img/home/bottom-cta-left.png) no-repeat top left #0a0d35;
+    padding: 60px 0;
+}
+
+#Footer .footer-para{
+	font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #fff;
+    margin: 30px 0 40px;
+}
+
+#Footer .dropdown a{
+	box-shadow: none;
+    min-height: 28px;
+    padding: 5px 10px 8px;
+    text-align: left;
+    min-width: 170px;
+    border: 1px solid #050826;
+    border-radius: 4px !important;
+    background-color: #050826;
+    outline: 0 !important;
+}
+
+#Footer .footer-text p a{
+	position: relative;
+    line-height: 17px;
+    font-size: 15px;
+    color: #bbb;
+    display: block;
+    flex-wrap: wrap;
+    max-width: max-content;
+    white-space: nowrap;
+    padding: 3px 0;
+    font-weight: 400;
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+}
+#Footer .footer-text p a:hover{
+	border-bottom: 1px solid #fff;
+}
+
+#footer-end{
+	background-color: #050826;
+}
+
+/*media curies*/
+
+@media (max-width: 992px) {
+	#footer-top .col-md-8{
+	    width: 66.66666667%;
+	}
+	#footer-top .footer-top-head {
+	    width: 100%;
+	}
+	#footer-top .footer-top-head h1{
+		font-size: 30px !important;
+	}
+	#footer-top .footer-top-head p{
+		font-size: 18px
+	}
+}
+
+@media (min-width: 768px){
+	#footer-top .footer-top-head{
+		/*width: 100%;*/
+	}
+}
+
+@media (max-width: 767px){
+	#Footer .first-row{
+		text-align: center !important;
+	}
+}
